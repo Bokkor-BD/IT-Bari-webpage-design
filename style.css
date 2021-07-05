@@ -1,0 +1,446 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*HEADER STYLE START*/
+.header{
+    width: 100%;
+    height: 100px;
+    padding: 50px 0;
+    background: #FDFDFD;
+}
+
+.logo img{
+    width: 300px;
+    height: 100px;
+    float: left;
+    margin-left: 50px;
+}
+
+.success{
+    margin-left: 550px;
+    width: 300px;
+    text-align: right;   
+}
+.success h2{
+    font-size: 16px;
+}
+.success p{
+   margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.success .flag{
+   margin-left: 310px;
+   margin-top: -70px;
+}
+
+.freelancing{
+    float: right;
+    width: 300px;
+    margin-right: 100px;
+    margin-top: -80px;
+    text-align: right;    
+}
+
+.freelancing h2{
+    font-size: 16px;
+}
+
+.freelancing p{
+    font-size: 12px;
+    padding-right: 0px;
+    
+}
+
+.freelancing .flag{
+    float: right;
+    margin-top: -70px;
+    margin-right: -80px;
+}
+/*HEADER STYLE END*/
+
+
+/*NAVIGATION STYLE START*/
+.nav_section{
+    width: 100%;
+    background: #000;
+    padding: 0;
+    margin-bottom: -50px;
+    border-bottom: 5px solid green;
+}
+
+.menu{
+    width: 80%;
+    margin-left: 100px;
+    padding: 15px;
+    opacity: .8;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+    display: inline-block;    
+}
+.button{
+    float: right;
+    color: #fff;
+    margin-top: -25px;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+}
+.button:hover{
+    color: #fff;
+}
+
+.button a{
+    color: #fff;
+    text-decoration: none;
+}
+.button i{
+    margin-left: 10px;
+}
+.button i:hover{
+    color: #FFFF00;
+}
+/*NAVIGATION STYLE END*/
+
+
+/*DEPEND STYLE START*/
+.depend_section{
+    width: 100%;
+/*    height: 500px;*/
+    background-image: url('assets/img/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.depend_section h1{
+    padding: 200px 0px;
+    font-size: 70px;
+    text-align: center;
+}
+.depend_section p{
+    text-align: center;
+    margin-top: -220px;
+    padding: 0 150px;
+    padding-bottom: 200px;
+    line-height: 2.5;
+}
+/*DEPEND STYLE END*/
+
+
+/*SERVICE STYLE START*/
+.service_box{
+    width: 80%;
+    height: 400px;   
+    border: 2px solid #000;
+    margin: 100px;
+    text-align: center;
+   padding-bottom: 100px;
+}
+
+.service_box span{
+    font-size: 100px;
+    color: green;
+}
+
+.service_box h2{
+    font-size: 50px;
+    margin: 0;
+    color: green;
+    line-height: 2;
+}
+.service_box li{
+    font-size: 30px;
+    margin-top: 0;
+    color: #000;
+    line-height: 1.6;
+    list-style: none;
+}
+.service_box li i{
+    color: green;
+    margin-right: 10px;
+}
+.service_box li i:hover{
+    color: red;
+}
+/*SERVICE STYLE END*/
+
+
+/*EXPERIENCE STYLE START*/
+.experience_section{
+    width: 80%;
+    height: 300PX;
+    margin: auto;  
+}.experience_section p{
+    opacity: .7;   
+}
+
+.experience_section div{
+    float: left;
+}
+.experience_section .one {
+    width: 10%;
+}
+.experience_section .one h1 {
+    line-height: 1.6;
+    font-size: 50px;
+    position: relative;
+}
+.experience_section .one h1:after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 2px;
+    background: green;
+    bottom: 0;
+    left: 0;
+}
+.experience_section .two {
+    width: 20%;
+    font-size: 30px;
+    margin-left: 200px;
+    text-align: center;
+    border: 1px solid green;
+}
+.experience_section .three {
+    width: 20%;
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: center;
+    border: 1px solid green;
+    padding: 0 10px;
+}
+.experience_section .four {
+    width: 23%;
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: center;
+    border: 1px solid green;
+    padding: 0 10px;
+}
+/*EXPERIENCE STYLE END*/
+
+
+/*SERVICES STYLE START*/
+.our_srvice{
+    width: 70%;
+    height: 350px;
+    margin: auto;
+    padding: 50px 150px;
+    text-align: center;
+}
+.our_srvice h2{
+    font-size: 50px;
+    color: tomato;
+    text-decoration: underline;
+}
+.our_srvice p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+/*SERVICES STYLE END*/
+
+
+/*COURSES STYLE START*/
+.our_courses{
+    width: 90%;
+    height: 1200px;
+    margin: auto;
+    padding: 50px 0;
+}
+.our_courses div{
+    width: 30%;
+    float: left;
+    padding: 10px;
+    background: #F8F8F8;
+    text-align: justify;
+    margin: 10px;
+}
+.our_courses .cource img{
+    margin-left: 40%;
+}
+.our_courses .cource h2{
+   text-align: center;
+}
+.our_courses .cource p{
+   font-size: 20px;
+   padding: 0 25px;
+   opacity: .5;
+}
+.our_courses .cource a{
+   text-decoration: none;
+    margin-left: 100px;
+    color: #1C7FBC;
+    font-size: 13px;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+}
+/*COURSES STYLE END*/
+
+
+/*ABOUT US STYLE START*/
+.about_us{
+    width: 100%;
+    height: 800px;
+    background-image: url('assets/img/ia_100000015.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 100px auto;
+    padding: 50px 0;
+    background-attachment: fixed;    
+}
+.about_text{
+    width: 90%;
+    height: 750px;
+    margin: auto;
+    background: rgba(43, 118, 178, 0.8);
+    text-align: center; 
+    position: relative;
+    color: #fff;
+}
+
+.about_text h2{
+    padding-top: 50px;
+    font-size: 50px;
+    
+}
+.about_text p{
+    font-size: 24px;
+    padding: 0 50px;
+    line-height: 1.3;
+}
+
+.about_text a{
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+/*ABOUT US STYLE END*/
+
+
+/* BLOG STYLE START*/
+.blog_section{
+    width: 90%;
+    margin: 50px auto;
+}
+.blog_section h1{
+    padding: 20px 0;
+    color: tomato;
+    text-decoration: underline;
+    font-size: 52px;
+    text-align: center;
+}
+.blog_section .group{
+    float: left;
+    margin: 20px;
+}
+
+.post{
+    height: 380px;
+    width: 350px;
+    box-shadow: 0 0 5px #000;
+    background: #ddd;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+.post_title img{
+    width: 350px;
+}
+.post_title{
+    width: 310px;
+    box-shadow: 0 0 5px #000;
+    padding: 20px ;
+}
+.post_title a{
+   color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.post_title i{
+   color: green;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.comment{
+    width: 350px;
+    height: 50px;
+    box-shadow: 0 0 5px #000;
+    margin-top: -15px;
+}
+.comment p{
+    padding: 25px;
+}
+
+.blog_btn a{
+    text-decoration: none;
+    padding: 20px 30px;
+    background: green;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 500px;
+}
+/* BLOG STYLE END*/
+
+/* FOOTER STYLE START*/
+.footer_section{
+    width: 100%;
+    height: 300px;
+    background: #000;
+    color: aliceblue;
+    border-top: 5px solid green;
+    padding: 50px 0;
+}
+
+.footer_section div{
+    float: left;
+    padding: 10px 100px;
+    margin-left: 100px;
+}
+.footer_section h2{
+    font-size: 42px;
+    text-decoration: underline;
+    color: yellow;
+}
+.footer_section li{
+    list-style: none;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.footer_section li:hover{
+    text-decoration: underline;
+}
+
+.copright{
+    width: 100%;
+    height: 50px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: -50px;
+    border-top: 1px solid red;
+    text-transform: uppercase;
+}
+
+/* FOOTER STYLE END*/
